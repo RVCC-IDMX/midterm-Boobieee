@@ -18,7 +18,7 @@ h1 {
 
 
 /* Media state for Desktop site */
-@media (min-width: 10opx) {}
+@media (min-width: 100opx) {}
 
     /* Header & Hero */
     h1 {
@@ -35,10 +35,10 @@ h1 {
     /* Reviews */
 
     /* Footer */
-footer {
-    color: rgb(254, 254, 254);
-    border: #fcca46;
-    background-color: #Fe7f2d;
+ footer {
+    color: white;
+    border: 2px solid #fcca46;
+    background-color: #fe7f2d;
     text-align: center;
     padding: 10px;
 }
