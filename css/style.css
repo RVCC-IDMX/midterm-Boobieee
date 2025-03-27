@@ -36,7 +36,9 @@ img {
     margin: 100px auto;
     width: 1000px;
     height: auto;
-
+    border: 5px solid #233d4d;
+    border-radius: 10px; 
+    padding: 5px;
 }
 
 h1 {
@@ -46,6 +48,55 @@ h1 {
 }
 
 /* Reviews */
+#reviews {
+    text-align: center;
+    background-color: #a1c181;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.review {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.review:hover {
+    transform: translateY(-10px); /* Adds a nice hover effect */
+}
+
+.name {
+    font-weight: bold;
+    color: #233d4d;
+    font-size: 1.2rem;
+}
+
+.title {
+    color: #fe7f2d;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+.rating {
+    color: #fcca46;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.content {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+
 
 /* Footer */
 footer {
