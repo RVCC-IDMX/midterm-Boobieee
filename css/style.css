@@ -1,3 +1,8 @@
+body {
+    background-color: #233d4d;
+}
+
+
 /* Styles for Mobile Site */
 
 /* Header & Hero */
@@ -7,7 +12,13 @@
 /* Reviews */
 
 /* Footer */
-
+footer {
+    color: rgb(254, 254, 254);
+    border: #8EF1FA;
+    background-color: #FA550C;
+    text-align: center;
+    padding: 10px;
+}
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
