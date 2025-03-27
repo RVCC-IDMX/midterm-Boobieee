@@ -6,22 +6,28 @@ body {
 /* Styles for Mobile Site */
 
 /* Header & Hero */
-
+h1 {
+    font-size: 75pt;
+    text-align: center;
+}
 /* Projects */
-
+h1 {
+    font-size: 70pt;
+    text-align: center;
+}
 /* Reviews */
 
 /* Footer */
 footer {
     color: rgb(254, 254, 254);
-    border: #8EF1FA;
-    background-color: #FA550C;
+    border: #fcca46;
+    background-color: #Fe7f2d;
     text-align: center;
     padding: 10px;
 }
 
 /* Media state for Desktop site */
-@media (min-width: 1000px) {
+@media (min-width: 10opx) {
 
     /* Header & Hero */
 
