@@ -11,30 +11,34 @@ h1 {
     text-align: center;
 }
 /* Projects */
-h1 {
-    font-size: 70pt;
-    text-align: center;
-}
+
 /* Reviews */
 
 /* Footer */
+
+
+/* Media state for Desktop site */
+@media (min-width: 10opx) {}
+
+    /* Header & Hero */
+    h1 {
+        font-size: 75pt;
+        text-align: center;
+    }
+    /* Projects */
+    h1 {
+        font-size: 70pt;
+        text-align: center;
+    
+    }
+
+    /* Reviews */
+
+    /* Footer */
 footer {
     color: rgb(254, 254, 254);
     border: #fcca46;
     background-color: #Fe7f2d;
     text-align: center;
     padding: 10px;
-}
-
-/* Media state for Desktop site */
-@media (min-width: 10opx) {
-
-    /* Header & Hero */
-
-    /* Projects */
-
-    /* Reviews */
-
-    /* Footer */
-
 }
