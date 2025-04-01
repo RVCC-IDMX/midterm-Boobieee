@@ -31,7 +31,7 @@ h1 {
 img {
     width: 500px;
     height: 300px;
-    text-align: center;
+    text-align: left;
     display: block;
     margin: 100px auto;
     width: 1000px;
@@ -68,7 +68,7 @@ h1 {
 }
 
 .review:hover {
-    transform: translateY(-10px); /* Adds a nice hover effect */
+    transform: translateY(-10px); /*  hover effect i think...*/
 }
 
 .name {
